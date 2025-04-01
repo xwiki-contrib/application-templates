@@ -225,16 +225,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     <property>
       <code>.encyclopedia-row {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, auto);
   gap: 1em;
 }
 
-/* Have the info card and table of content displayed on the right. */
-.encyclopedia-row &gt; *:nth-child(1) {
-  order: 2;
-}
 .encyclopedia-row &gt; * &gt; .jumbotron .container {
   width: 90%;
+}
+
+@media (min-width: 768px) {
+  .encyclopedia-row {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  /* Have the info card and table of content displayed on the right. */
+  .encyclopedia-row &gt; *:nth-child(1) {
+    order: 2;
+  }
 }</code>
     </property>
     <property>
