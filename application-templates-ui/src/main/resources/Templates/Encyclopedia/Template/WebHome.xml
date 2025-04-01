@@ -39,9 +39,30 @@
   <minorEdit>false</minorEdit>
   <syntaxId>xwiki/2.1</syntaxId>
   <hidden>true</hidden>
-  <content>(% class="row" %)
+  <content>(% class="encyclopedia-row" %)
 (((
-(% class="col-xs-12 col-sm-8" %)
+(%%)
+(((
+(% class="box" %)
+(((
+= Falabella =
+[[image:Templates.Encyclopedia.Template.WebHome@image.jpg||style="width: 100%"]]
+|=Morphology|Miniature horse
+|=Region|[[Argentina&gt;&gt;Main.WebHome]]
+|=Price|1200 €
+|=Image|[[Credits&gt;&gt;https://commons.wikimedia.org/wiki/File:FalabellaFestivo.jpg]]
+)))
+
+(% class="box" %)
+(((
+**Contents**
+
+{{toc /}}
+
+)))
+)))
+
+(%%)
 (((
 (% class="jumbotron" %)
 (((
@@ -84,27 +105,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 * [[XWiki&gt;&gt;http://www.xwiki.org]]
 * [[XWiki Extensions&gt;&gt;http://www.xwiki.org]]
 
-)))
-
-(% class="col-xs-12 col-sm-4" %)
-(((
-(% class="box" %)
-(((
-= Falabella =
-[[image:Templates.Encyclopedia.Template.WebHome@image.jpg||style="width: 100%"]]
-|=Morphology|Miniature horse
-|=Region|[[Argentina&gt;&gt;Main.WebHome]]
-|=Price|1200 €
-|=Image|[[Credits&gt;&gt;https://commons.wikimedia.org/wiki/File:FalabellaFestivo.jpg]]
-)))
-
-(% class="box" %)
-(((
-**Contents**
-
-{{toc /}}
-
-)))
 )))
 )))</content>
   <attachment>
