@@ -39,13 +39,13 @@
   <minorEdit>false</minorEdit>
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
-  <content>### Missing: template.templateProvider.article.name=
-### Missing: template.templateProvider.article.description=
-### Missing: template.templateProvider.encyclopedia.name=
-### Missing: template.templateProvider.encyclopedia.description=
-### Missing: template.templateProvider.meeting.name=
-### Missing: template.templateProvider.meeting.description=
-### Missing: template.templateProvider.simplePage.name=
-### Missing: template.templateProvider.simplePage.description=
+  <content>template.templateProvider.article.name=Artikel
+template.templateProvider.article.description=Artikelside
+template.templateProvider.encyclopedia.name=Leksikon
+template.templateProvider.encyclopedia.description=Leksikonside
+template.templateProvider.meeting.name=Mødereferat
+template.templateProvider.meeting.description=Dagsorden og noter
+template.templateProvider.simplePage.name=Enkel side
+template.templateProvider.simplePage.description=Med indholdsfortegnelse
 </content>
 </xwikidoc>
